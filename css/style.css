@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(229, 202, 233);
+}
+
+/* Whole content of the webpage */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+/* includes key input box and the button */
+.keygen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
